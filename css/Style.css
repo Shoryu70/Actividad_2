@@ -10,9 +10,9 @@ main{
 
 .container{
     width: 100%;
-    height: 60vh;
-    background-color: #b3ada2;
-    border-top: 80px solid #aa1455;
+    height: 15cm;
+    background-color: #ff5100d0;
+    border-top: 80px solid #b6dd0ab2;
 }
 
 .row{
@@ -20,68 +20,70 @@ main{
     flex-direction: row;
     justify-content: center;
     margin-top: -50px;
+    color: aliceblue;
 }
 
 .col:nth-child(1){
     width: 29%;
-    background-image: url('https://i.pinimg.com/originals/59/dc/d0/59dcd0e53bcd9be7b558aa4318eacb9d.jpg');
+    color: aliceblue;
+    background-image: url('https://saboryestilo.com.mx/wp-content/uploads/2020/04/recetas-con-pollo-1-copy-1200x900.jpg');
     background-position: center;
     background-size: auto 100%;
     height: 50vh;
     margin: 20px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px;
 }
 
 .col:nth-child(2){
     width: 29%;
-    background-image: url('https://i.pinimg.com/originals/1e/55/8d/1e558ddaf9da431b6d14d9f738b13ac5.jpg');
+    background-image: url('https://dam.cocinafacil.com.mx/wp-content/uploads/2018/07/beneficios-de-comer-pollo.jpg');
     background-position: center;
     background-size: auto 100%;
     height: 50vh;
     margin: 20px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px;
 }
 
 .col:nth-child(3){
     width: 29%;
-    background-image: url('https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/02/postres-sin-horno-para-vender-san-valentin.jpg');
+    background-image: url('https://maheso.com/wp-content/uploads/pollo-frito.jpg');
     background-position: center;
     background-size: auto 100%;
     height: 50vh;
     margin: 20px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px;
 }
 
 .col h2{
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(128 15 63);
-    font-size: 1.9rem;
-    font-family: "Playfair Display";
+    background-color: rgba(0, 0, 0, 0.349);
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    --fontSize: 35;
+    font-size: 2rem;
     line-height: 1.2;
 }
 
 .col button{
     width: 100%;
     border: none;
-    font-family: "Karla";
-    font-size: 1.5rem;
-    background-color: #7f0f41;
+    font-family: cursive;
+    font-size: 2rem;
+    background-color: #ffae00ab;
     color: #ffffff;
-    margin-top: 230px;
+    margin-top: 280px;
     vertical-align: inherit;
-    padding: 20px 29px;
+    padding: 20px 30px;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     line-height: 20px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .col button:hover{
-    background-color:rgba(255,99,101,0.85);
+    background-color:rgba(255, 102, 0, 0.85);
     color: #ffffff;
     cursor: pointer;
 }
@@ -97,7 +99,7 @@ main{
     background-image: url('https://estaticos.miarevista.es/uploads/images/trick/577a8c9533ead0cf0946b2ff/reposteriaainterior.jpg');
     width: 100%;
     height: 70vh;
-    border-top: 80px solid #45152a;
+    border-top: 80px solid #ff006f;
     font-family: "Playfair Display";
     justify-content: center;
 
